@@ -1,0 +1,87 @@
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.display {
+	height: 30px;
+	padding: 10px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: end;
+	justify-items: end;
+	align-items: center;
+	width: 200px;
+	font-size: 1.5rem;
+	border: 1px solid black;
+}
+
+.result {
+	height: 30px;
+	padding: 10px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: end;
+	justify-items: end;
+	align-items: center;
+	width: 200px;
+	font-size: 1.5rem;
+	border: 2px solid green;
+	color: green;
+}
+
+.buttons {
+	padding-top: 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+}
+
+.number {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+	color: white;
+	border: 0;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.number:hover {
+	filter: brightness(120%);
+}
+.number:active {
+	filter: brightness(90%);
+}
+
+.operations {
+	padding-top: 30px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.operator {
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+	color: white;
+	border: 0;
+	border-radius: 50%;
+	font-size: 1.5rem;
+	cursor: pointer;
+	user-select: none;
+}
+.operator:hover {
+	filter: brightness(120%);
+}
+.operator:active {
+	filter: brightness(90%);
+}
